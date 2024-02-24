@@ -1,0 +1,162 @@
+.offe{
+  color: #555;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-decoration: line-through;
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+.font12{
+  font-size: 12px;
+}
+.font14{
+  font-size: 14px;
+}
+.badge1{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+margin-bottom: 1rem;
+}
+.badge2{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+
+}
+
+#card-img {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 400px;
+}
+.card-body{
+  margin-bottom: -1.5rem;
+}
+
+
+.dsc{
+font-size: 12px;
+}
+.tags{
+  font-size: 12px;
+}
+.offs{
+  font-size: 12px;
+}
+.dlv{
+ margin-top: -1rem;
+}
+@media (max-width: 1399.98px) {  }
+@media (max-width: 1199.98px) {}
+@media (max-width: 991.98px) { 
+  #card-img {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 250px;
+  }
+}
+@media (max-width: 767.98px) { 
+  .card-body{
+    margin-bottom: -1.5rem;
+    margin-top: -1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  #card-img {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .dsc{
+      font-size: 10px;
+      margin-left: -.5rem;
+      margin-right: -.5rem;
+    
+        }
+        .tags{
+          font-size: 10px;
+        }
+        .offs{
+          font-size: 10px;
+          margin-left: 1rem;
+        }
+        #card-img {
+          width: 100%;
+          max-width: 500px;
+          height: 100%;
+          max-height: 160px;
+        }
+        .card-body{
+          margin-bottom: -1.5rem;
+          margin-top: -1.5rem;
+        }
+        .badge1{
+          font-size: 10px;
+          padding: 2px;
+        }
+        .badge2{
+          font-size: 10px;
+          padding: 2px;
+        }
+}
+@media (max-width: 300px) {
+  .card-body{
+    margin-bottom: -1.5rem;
+    margin-top: -1.5rem;
+  }
+  .dsc{
+      font-size: 10px;
+      margin-left: -.5rem;
+      margin-right: -.5rem;
+    
+        }
+        .badge1{
+          font-size: 10px;
+          padding: 1px;
+        }
+        .badge2{
+          font-size: 10px;
+          padding: 1px;
+        }
+        .offs{
+          font-size: 10px;
+          margin-left: 1rem;
+        }
+        #card-img {
+          width: 100%;
+          max-width: 500px;
+          height: 100%;
+          max-height: 100px;
+        }
+        #card-body{
+          margin-top: -1rem;
+        }
+        .font12{
+          font-size: 10px;
+        }
+        .font14{
+          font-size: 12px;
+        }
+        .offs{
+margin-top: 2rem;
+        }
+}

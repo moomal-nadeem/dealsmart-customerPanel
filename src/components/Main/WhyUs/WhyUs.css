@@ -1,0 +1,21 @@
+.aboutText1 {
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.aboutText2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 10px;
+
+}
+
+.aboutText {
+  font-size: 15px;
+  color: hsl(240, 4%, 36%);
+}
+
+#list {
+  list-style-type: circle;
+}
